@@ -1,0 +1,40 @@
+.header-bg {
+    position: relative;
+    background: url('../img/bg/header-bg-building.jpg') top right no-repeat,
+                url('../img/bg/header-bg-repeat.png') top left repeat-x;
+}
+
+.header__admin-panel {
+    cursor: pointer;
+    width: 242px;
+    border-radius: 26px;
+    border: none;
+    color: #fff;
+    padding: 15px 20px;
+    background-color: #f5585c;
+    text-align: left;
+    position: absolute;
+    top: 108px;
+    right: -196px;  
+    transition: right 0.5s ease-in;
+    & span:before {
+        content: '';
+        width: 16px;
+        height: 18px;
+        display: inline-block;
+        background-image: url('../img/icons/icon-locked-padlock.svg');
+        background-size: 16px 18px;
+        vertical-align: top;
+        margin-right: 10px;
+    } 
+    &:hover {
+        background-color: #df373b;
+        right: -79px;
+        transition: right 0.5s ease-in;
+
+    }
+    &:active {
+        background-color: #eb353a;
+    }
+}
+

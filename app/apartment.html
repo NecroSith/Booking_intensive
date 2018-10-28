@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800&amp;subset=cyrillic-ext" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/main.css">
+    
+</head>
+<body class="header-bg">
+
+    <div class="wrapper">
+        <header class="header">
+            <button class="header__admin-panel">
+                <span>Админ панель</span>    
+            </button>
+            <h1 class="header__title">Онлайн букинг</h1>
+            <h2 class="header__subtitle">Дома и апартаменты в Сочи недорого</h2>
+        </header>
+
+        <main class="content-wrapper content-wrapper--rounded content-wrapper--shadowed">
+            <div class="single-wrapper">
+                <div class="single">
+                    <div class="single__info">Дом целиком</div>
+                    <h1 class="single__title">Резиденция с видом на море</h1>
+                    <div class="single-tag-wrapper">
+                        <div class="single-tag">4 гостя</div>
+                        <div class="single-tag">2 спальни</div>
+                        <div class="single-tag">2 кровати</div>
+                    </div>
+                    <div class="single__price">4 202 руб. <span>за сутки</span></div>
+                    <div class="single-button-wrapper">
+                        <a href="#" class="button">
+                            Забронировать
+                        </a>
+                    </div>
+                    <div class="single__description">
+                        <p>Место для тех, кто устал от городской среды: уединенное, комфортабельное жилье для двоих.</p>
+                        <p>Апартаменты 70 кв. м. занимают верхний этаж, имеют свою парковку, отдельный вход и большую террасу.</p>
+                        <p>
+                            Высокий комфорт:кондиционер, оснащенная кухня, хорошая большая и удобная кровать, просторная душевая комната, подогреваемые теплые полы, водоподготовка и многое другое.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="gallery">
+                    <div class="gallery__big">
+                        <img src="img/mini/mini-1.jpg" alt="preview">
+                    </div>
+                    <div class="gallery-mini-wrapper">
+                        <div class="gallery__mini">
+                            <img src="img/mini/mini-2.jpg" alt="">
+                        </div>
+                        <div class="gallery__mini">
+                            <img src="img/mini/mini-3.jpg" alt="">
+                        </div>
+                        <div class="gallery__mini">
+                            <img src="img/mini/mini-4.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <aside class="related content-wrapper">
+            
+            <div class="container-fluid">
+                <h2 class="related__title">
+                    Похожие варианты размещения
+                </h2>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="apartment-card">
+                            <a href="apartment.html">
+                                <div class="apartment-card__image">
+                                        <img src="img/preview/preview-4.jpg" alt="">
+                                </div>
+                                <div class="apartment-card__details">
+                                    Дом целиком • 2 кровати • 3 гостя
+                                </div>
+                                <a class="apartment-card__link" href="">
+                                    <div class="apartment-card__title">
+                                        Квартира-студия у моря
+                                    </div>
+                                </a>
+                                <div class="apartment-card__price">
+                                    4 202 руб. за сутки
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="apartment-card">
+                            <a href="apartment.html">
+                                <div class="apartment-card__image">
+                                        <img src="img/preview/preview-5.jpg" alt="">
+                                </div>
+                                <div class="apartment-card__details">
+                                    Дом целиком • 2 кровати • 4 гостя
+                                </div>
+                                <a class="apartment-card__link" href="">
+                                    <div class="apartment-card__title">
+                                        Уютная и тихая квартира
+                                    </div>
+                                </a>
+                                <div class="apartment-card__price">
+                                    1 300 руб. за сутки
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="apartment-card">
+                            <a href="apartment.html">
+                                <div class="apartment-card__image">
+                                        <img src="img/preview/preview-6.jpg" alt="">
+                                </div>
+                                <div class="apartment-card__details">
+                                    Дом целиком • 2 кровати • 4 гостя
+                                </div>
+                                <a class="apartment-card__link" href="">
+                                    <div class="apartment-card__title">
+                                        Апартаменты в центре Хосты
+                                    </div>
+                                </a>
+                                <div class="apartment-card__price">
+                                    4 202 руб. за сутки
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </aside>
+    </div>
+
+    <footer class="footer">
+        <div class="wrapper">
+            <div class="footer__copyright">
+                    &copy; 2018 Учебный проект Букинг, интенсив школы <a href="http://webcademy.ru/" target="_blank">WebCademy</a>. Выполнил <a href="https://vk.com/necrosith" target="_blank">Ян Пустынный</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
